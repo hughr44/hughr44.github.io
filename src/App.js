@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {BrowserRouter as HashRouter, Router, Link, Route} from 'react-router-dom';
+import {BrowserRouter as HashRouter, hashHistory, Router, Link, Route} from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar'
@@ -45,7 +45,7 @@ class App extends React.Component {
   render(){
     const styles = require('./App.css');
     return (
-      <HashRouter>
+      <Router>
         <Container className="p-0" fluid={true}>
 
           <Navbar className='border-bottom' bg="transparent" expand="lg">
@@ -84,7 +84,7 @@ class App extends React.Component {
 
         </Container>
 
-      </HashRouter>
+      </Router>
 
       
 
