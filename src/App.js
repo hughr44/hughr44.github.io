@@ -20,10 +20,10 @@ class App extends React.Component {
     this.state = {
       title: 'Hugh Robertson',
       headerLinks: [
-        { title: 'Home', path: '/' },
-        { title: 'About', path: '/about' },
-        { title: 'Resume', path: '/resume' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'Home', path: '/portfolio-site/' },
+        { title: 'About', path: '/portfolio-site/about' },
+        { title: 'Resume', path: '/portfolio-site/resume' },
+        { title: 'Contact', path: '/portfolio-site/contact' }
       ],
       home: {
         title: 'Hugh Robertson',
@@ -56,10 +56,10 @@ class App extends React.Component {
               <Nav className="ml-auto">
 
                 
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/resume">Resume</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/portfolio-site/">Home</Link>
+                <Link className="nav-link" to="/portfolio-site/about">About</Link>
+                <Link className="nav-link" to="/portfolio-site/resume">Resume</Link>
+                <Link className="nav-link" to="/portfolio-site/contact">Contact</Link>
                 
                 {/*
                 <Link className="nav-link" activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
@@ -73,10 +73,10 @@ class App extends React.Component {
 
           
           <div className="main-body">
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-          <Route path="/about" render={() => <AboutPage title={this.state.about.title}/>} />
-          <Route path="/resume" render={() => <ResumePage title={this.state.about.title}/>} />
-          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title}/>} />
+          <Route path="/portfolio-site/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/portfolio-site/about" render={() => <AboutPage title={this.state.about.title}/>} />
+          <Route path="/portfolio-site/resume" render={() => <ResumePage title={this.state.about.title}/>} />
+          <Route path="/portfolio-site/contact" render={() => <ContactPage title={this.state.contact.title}/>} />
           </div>
           
 
