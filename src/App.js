@@ -20,7 +20,7 @@ class App extends React.Component {
     this.state = {
       title: 'Hugh Robertson',
       headerLinks: [
-        { title: 'Home', path: '/portfolio-site/' },
+        { title: 'Home', path: '/portfolio-site/home' },
         { title: 'About', path: '/portfolio-site/about' },
         { title: 'Resume', path: '/portfolio-site/resume' },
         { title: 'Contact', path: '/portfolio-site/contact' }
@@ -56,7 +56,7 @@ class App extends React.Component {
               <Nav className="ml-auto">
 
                 
-                <Link className="nav-link" to="/portfolio-site/">Home</Link>
+                <Link className="nav-link" to="/portfolio-site/home">Home</Link>
                 <Link className="nav-link" to="/portfolio-site/about">About</Link>
                 <Link className="nav-link" to="/portfolio-site/resume">Resume</Link>
                 <Link className="nav-link" to="/portfolio-site/contact">Contact</Link>
@@ -73,7 +73,7 @@ class App extends React.Component {
 
           
           <div className="main-body">
-          <Route path="/portfolio-site/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/portfolio-site/home" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/portfolio-site/about" render={() => <AboutPage title={this.state.about.title}/>} />
           <Route path="/portfolio-site/resume" render={() => <ResumePage title={this.state.about.title}/>} />
           <Route path="/portfolio-site/contact" render={() => <ContactPage title={this.state.contact.title}/>} />
