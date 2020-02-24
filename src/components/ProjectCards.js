@@ -94,7 +94,7 @@ function ProjectCards(props) {
                             <span className='date'>2019</span>
                         </Card.Meta>
                         <Card.Description>
-                            Created a website for the Data Analytics Club at Texas A&M. The website contained pages to display information about
+                            Created a website for the Data Analytics Club at Texas A&M using the Ruby on Rails framework. The website contained pages to display information about
                             the organization, list important announcements, list upcoming events and allow users to sign up for the events. 
                             Additionally, a sign in feature was implemented using google authentication.
                             Admin accounts are given special privileges to edit and add events and to make announcements.

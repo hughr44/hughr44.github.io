@@ -11,7 +11,7 @@ function ContactPage(props){
             Thank you for visiting my personal website! I would love to hear from you! If you would like to contact me, I can be reached through the following.
             </p>
             <p>
-            Email: hugh.r44@gmail.com
+            Email: hughrobertson.cs@gmail.com
             </p>
             <p>
             Phone: (512)-318-0199
