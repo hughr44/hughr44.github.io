@@ -30,6 +30,9 @@ function Hero(props) {
                             <a href="https://github.com/hughr44?tab=repositories" rel="new open" target="_blank">
                                 <i class="fa fa-github-square" aria-hidden="true"></i>
                             </a>
+                            <a href="https://www.youtube.com/channel/UCoAMrKJGjUvsGPqRSBm2hWQ?view_as=subscriber" rel="new open" target="_blank">
+                                <i class="fab fa-youtube-square" aria-hidden="true"></i>
+                            </a>
                         </div>
                     </Col>
                 </Row>

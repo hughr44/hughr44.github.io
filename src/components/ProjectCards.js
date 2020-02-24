@@ -129,7 +129,7 @@ function ProjectCards(props) {
                             <Icon name='github square' />
                             GitHub
                         </a>
-                        <a href='' target='_blank'>
+                        <a href='https://www.youtube.com/watch?v=1kt_X_Ofo5c&feature=youtu.be' target='_blank'>
                             <Icon name='play' />
                             Demo
                         </a>
@@ -149,11 +149,11 @@ function ProjectCards(props) {
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
-                        <a href='https://engineering.tamu.edu/cse/index.html' target='_blank'>
+                        <a href='https://github.com/hughr44/portfolio-site' target='_blank'>
                             <Icon name='github square' />
                             GitHub
                         </a>
-                        <a href='https://engineering.tamu.edu/cse/index.html' target='_blank'>
+                        <a href='https://hughr44.github.io/portfolio-site/#/' target='_blank'>
                             <Icon name='play' />
                             Demo
                         </a>

@@ -16,11 +16,11 @@ import { Button } from 'semantic-ui-react'
 function ResumePage(props){
     return(
         <div className="resume-me" id="resume">
-
+            {/*
             <div className="resume-download" id="resume-download">
             <a href='../assets/images/HughResume.docx' download="HughResume.docx" target="_blank" style={{color:'black', fontsize:'500em'}}>Download Resume</a>
             </div>
-
+            */}
             <ResDivider className="resume-div" title = "Education"/>
             <EdList/>
             <ResDivider className="resume-div" title = "Relevant Coursework"/>
