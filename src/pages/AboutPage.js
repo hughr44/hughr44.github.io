@@ -41,7 +41,7 @@ function AboutPage(props){
                         </p>
                         <p>
                             Another trait that I greatly value are my interpersonal skills. I have strong verbal and non-verbal communication skills and am confident
-                            in myself in voicing my opinions. I am also a thoughtfull listener and take pride in ensuring that others feel that their ideas are are
+                            in myself in voicing my opinions. I am also a thoughtfull listener and take pride in ensuring that others feel that their ideas are
                             being respected and valued. Because of these skills, I found myself taking a leadership roll in the majority of my group projects throughout
                             my college career. I take pride in breaking the stereotype of people in the computer science world being the quiet type and feel it is something
                             that sets me apart from the field.  
@@ -61,9 +61,9 @@ function AboutPage(props){
                             enough to have won a small amount of money from my performances along the way. 
                         </p>
                         <p>
-                            In my free time in college I continued to persue those hobbies and additionally became involved in a few organizations. I became a member of Aggie Men's 
+                            In my free time in college I continued to pursue those hobbies and additionally became involved in a few organizations. I became a member of Aggie Men's 
                             Alliance which is a leadership and social organization at Texas A&M committed to the success and brotherhood of its members and the well being 
-                            of the surrounding community. Additionally, I was a founding member of the Brotherhood of Aggie Mentors, a smiliar organization with the goal of
+                            of the surrounding community. Additionally, I was a founding member of the Brotherhood of Aggie Mentors, a similar organization with the goal of
                             serving the Bryan and College Station community through mentorship by developing leaders of character who uphold the core values of Texas A&M University.
                         </p>
                     </Col>
