@@ -13,8 +13,8 @@ function AboutPage(props){
                             Introduction:
                         </p>
                         <p>
-                            Thank you for visiting my website! My name is Hugh Robertson and I am a senior at Texas A&M University seeking a degree
-                            in Computer Science and a minor in Business. I will be graduating in August 2020 and am seeking full time employment. On the
+                            Thank you for visiting my website! My name is Hugh Robertson and I am a recent graduate from Texas A&M University with a degree
+                            in Computer Science and a minor in Business. I graduated in August 2020 and am currently seeking full time employment. On the
                             next pages of this website you can find my resume, projects, and contact information.
                         </p>
                     </Col>

@@ -13,6 +13,10 @@ import SSToolPage2 from '../assets/images/SSToolPage2.JPG';
 import KalahStart from '../assets/images/KalahStart.JPG';
 import KalahBoard from '../assets/images/KalahBoard.JPG';
 import ARResume from '../assets/images/ARResume.PNG';
+import FindMyMoviePic from '../assets/images/findMyMoviePic.PNG';
+import AutoDriveCar from '../assets/images/autodriveCar.jpg';
+import WelcomeSM from '../assets/images/welcomeSM.PNG';
+import HomeSM from '../assets/images/homeSM.PNG';
 
 function ProjectCards(props) {
     return(
@@ -105,10 +109,10 @@ function ProjectCards(props) {
                             <Icon name='github square' />
                             GitHub
                         </a>
-                        <a href='https://www.youtube.com/watch?v=9zUyhp2ncC0' target='_blank'>
+                        {/* <a href='https://www.youtube.com/watch?v=9zUyhp2ncC0' target='_blank'> */}
                             <Icon name='play' />
                             Demo
-                        </a>
+                        {/* </a> */}
                     </Card.Content>
                 </Card>
 
@@ -121,7 +125,7 @@ function ProjectCards(props) {
                         </Card.Meta>
                         <Card.Description>
                             This was a fun project I created to explore and learn about Unity Augmented Reality development. I created a phone application using the Unity AR development tool 
-                            that places components of my resume in Augmented Reality. (video shown below)
+                            that places components of my resume in Augmented Reality.
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
@@ -129,7 +133,7 @@ function ProjectCards(props) {
                             <Icon name='github square' />
                             GitHub
                         </a>
-                        <a href='https://www.youtube.com/watch?v=1kt_X_Ofo5c&feature=youtu.be' target='_blank'>
+                        <a href='https://drive.google.com/file/d/1AHb1d6ZlFKGlTGtWKyUZWmc1AtRJsGAt/view?usp=sharing' target='_blank'>
                             <Icon name='play' />
                             Demo
                         </a>
@@ -170,9 +174,9 @@ function ProjectCards(props) {
                 <Card.Group>
 
                 <Card>
-                    {/* <Image src={} wrapped ui={false} /> */}
+                    <Image src={AutoDriveCar} wrapped ui={false} />
                     <Card.Content>
-                        <Card.Header>Competition System Validation and GUI for AutoDrive Challenge (in progress)</Card.Header>
+                        <Card.Header>Competition System Validation and GUI for AutoDrive Challenge</Card.Header>
                         <Card.Meta>
                             <span className='date'>2020</span>
                         </Card.Meta>
@@ -197,27 +201,58 @@ function ProjectCards(props) {
                 </Card>
 
                 <Card>
-                    {/* <Image src={} wrapped ui={false} /> */}
+                    <Image src={FindMyMoviePic} wrapped ui={false} />
                     <Card.Content>
-                        <Card.Header>Find My Movie Application (in progress)</Card.Header>
+                        <Card.Header>Find My Movie Application</Card.Header>
                         <Card.Meta>
                             <span className='date'>2020</span>
                         </Card.Meta>
                         <Card.Description>
-                            Creating a website that accesses APIs from various movie and show streaming services allowing users to search for any movie or show
-                            to find what streaming services have the desired movie or show available for viewing. This project is for the semester long project
+                            Created a website that accesses APIs from various movie and show streaming services allowing users to search for any movie or show
+                            to find what streaming services have the desired movie or show available for viewing. This project was for the semester long project
                             in my Information Storage and Retrieval class.
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
-                        {/* <a href='' target='_blank'> */}
+                        <a href='https://github.com/hughr-44/find-my-movie' target='_blank'>
                             <Icon name='github square' />
                             GitHub
-                        {/* </a> */}
-                        {/* <a href='' target='_blank'> */}
+                        </a>
+                        <a href='https://hughr-44.github.io/find-my-movie/' target='_blank'>
                             <Icon name='play' />
                             Demo
-                        {/* </a> */}
+                        </a>
+                    </Card.Content>
+                </Card>
+
+                <Card>
+                    <div className="ui slide masked reveal image">
+                        <Image className="visible content" src={WelcomeSM} wrapped ui={false} />
+                        <Image className="hidden content" src={HomeSM} wrapped ui={false} />
+                    </div>
+                    <Card.Content>
+                        <Card.Header>The Social Medium (in progress)</Card.Header>
+                        <Card.Meta>
+                            <span className='date'>2020-2021</span>
+                        </Card.Meta>
+                        <Card.Description>
+                            This still under development project is a new form of social media to bridge the gap between the most prevalent social media platforms in the space 
+                            of social media marketing and content creation. This application allows the user to connect multiple social media platforms to their profile in order to create 
+                            a social feed that combines the accounts they follow into one central location. Additionally, it allows the user to display the content they produce across 
+                            their various social accounts in order to simultaneously promote them all. This application combines the open APIs from the selected social media platforms to 
+                            retrieve the necesary data and content. The React framework is used to build the application, Nodejs to create the backend functionality and the google Firebase 
+                            platform for creating the necessary databases and handling users information. Please click demo below for more information and a video demonstration.
+                        </Card.Description>
+                    </Card.Content>
+                    <Card.Content extra>
+                        <a href='https://github.com/hughr-44/thesocialmediumweb' target='_blank'>
+                            <Icon name='github square' />
+                            GitHub
+                        </a>
+                        <a href='https://www.youtube.com/watch?v=Ha7eS52ZE0I' target='_blank'>
+                            <Icon name='play' />
+                            Demo
+                        </a>
                     </Card.Content>
                 </Card>
 

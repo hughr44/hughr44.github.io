@@ -28,6 +28,7 @@ function CourseList(props) {
                             <List.Item>Computers and New Media</List.Item>
                             <List.Item>Human Computer Interaction</List.Item>
                             <List.Item>Information Storage and Retrieval</List.Item>
+                            <List.Item>Senior Capstone Design</List.Item>
                         </List.List>
                     </List.Item>
                     <List.Item className="list-items">

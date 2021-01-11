@@ -30,8 +30,7 @@ function EdList(props) {
                 <List bulleted size={"huge"}>
                     <List.Item className="list-items">Major: Computer Science</List.Item>
                     <List.Item className="list-items">Minor: Business</List.Item>
-                    <List.Item className="list-items">Overall GPA: 3.04</List.Item>
-                    <List.Item className="list-items">Major GPA: 3.26</List.Item>
+                    <List.Item className="list-items">GPA: 3.03</List.Item>
                 </List>
             </Row>
         </Container>
