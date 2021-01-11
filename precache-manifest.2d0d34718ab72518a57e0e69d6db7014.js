@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e44e000d2f839d5ed107103f6de308ec",
+    "revision": "e1bd963d850008a5cb85bb73ae9209a9",
     "url": "/portfolio-site/index.html"
   },
   {
-    "revision": "f6ea53bb2b1644df6940",
+    "revision": "e9a1e0f6a61779eca633",
     "url": "/portfolio-site/static/css/2.67123b20.chunk.css"
   },
   {
-    "revision": "70b0465fc500415c42cb",
+    "revision": "e3d9aeee9d0cfdd9c093",
     "url": "/portfolio-site/static/css/main.01aab296.chunk.css"
   },
   {
-    "revision": "f6ea53bb2b1644df6940",
-    "url": "/portfolio-site/static/js/2.589b5e7f.chunk.js"
+    "revision": "e9a1e0f6a61779eca633",
+    "url": "/portfolio-site/static/js/2.7c8d52f4.chunk.js"
   },
   {
     "revision": "967c3aa677d48917bda81b3b2ff2693c",
-    "url": "/portfolio-site/static/js/2.589b5e7f.chunk.js.LICENSE.txt"
+    "url": "/portfolio-site/static/js/2.7c8d52f4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70b0465fc500415c42cb",
-    "url": "/portfolio-site/static/js/main.e9110ba9.chunk.js"
+    "revision": "e3d9aeee9d0cfdd9c093",
+    "url": "/portfolio-site/static/js/main.16cfa5e4.chunk.js"
   },
   {
     "revision": "9f14ee726983e5e1c682",
@@ -64,7 +64,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-site/static/media/a&mlogo.1a8244fc.png"
   },
   {
+    "revision": "06fd6f0d610fbc1a7c2e6d104eac8504",
+    "url": "/portfolio-site/static/media/autodriveCar.06fd6f0d.jpg"
+  },
+  {
+    "revision": "345ae682d58c80e15d8f11ebc526b4bb",
+    "url": "/portfolio-site/static/media/findMyMoviePic.345ae682.PNG"
+  },
+  {
+    "revision": "1fe98daf9244fb1c1990522b1acb76bc",
+    "url": "/portfolio-site/static/media/homeSM.1fe98daf.PNG"
+  },
+  {
     "revision": "bfab61d95812d91cbbffe0a60b1a478b",
     "url": "/portfolio-site/static/media/meselfie.bfab61d9.jpg"
+  },
+  {
+    "revision": "c88985093faafcde4d20819257e2200c",
+    "url": "/portfolio-site/static/media/welcomeSM.c8898509.PNG"
   }
 ]);
