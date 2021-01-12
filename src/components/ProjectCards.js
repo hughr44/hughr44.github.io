@@ -249,7 +249,7 @@ function ProjectCards(props) {
                             <Icon name='github square' />
                             GitHub
                         </a>
-                        <a href='https://www.youtube.com/watch?v=Ha7eS52ZE0I' target='_blank'>
+                        <a href='https://www.youtube.com/watch?v=EJUHgHUub0Y' target='_blank'>
                             <Icon name='play' />
                             Demo
                         </a>
